@@ -103,7 +103,7 @@ You need [Rust via rustup](https://www.rust-lang.org/tools/install).
 ```sh
 scripts/update-grammar.sh /path/to/goose
 git add tree-sitter-goose && git commit -m "Update the grammar"
-scripts/pin-grammar.sh https://github.com/you/zed-goose
+scripts/pin-grammar.sh https://github.com/VPagani/zed-goose
 git commit -am "Pin the grammar"
 ```
 
@@ -116,7 +116,7 @@ has.
 ## Publishing
 
 Push this repository to GitHub, then run
-`scripts/pin-grammar.sh https://github.com/you/zed-goose`, set `repository` at
+`scripts/pin-grammar.sh https://github.com/VPagani/zed-goose`, set `repository` at
 the top of `extension.toml` to the same URL, commit, push, and open a pull
 request against [zed-industries/extensions](https://github.com/zed-industries/extensions)
 as its [publishing guide](https://zed.dev/docs/extensions/developing-extensions#publishing-your-extension)

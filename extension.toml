@@ -4,7 +4,7 @@ version = "0.1.0"
 schema_version = 1
 authors = ["vr.paga <vr.paga@gmail.com>"]
 description = "Goose language support: tree-sitter highlighting, outline, run tasks, and the compiler's language server (goose lsp)."
-repository = "https://github.com/OWNER/zed-goose"
+repository = "https://github.com/VPagani/zed-goose"
 
 snippets = ["./snippets/goose.json"]
 
@@ -12,8 +12,8 @@ snippets = ["./snippets/goose.json"]
 # generated parser checked in, because Zed compiles src/parser.c and does not
 # run `tree-sitter generate`. scripts/pin-grammar.sh sets `repository` and `rev`.
 [grammars.goose]
-repository = "https://github.com/OWNER/zed-goose"
-rev = "0000000000000000000000000000000000000000"
+repository = "https://github.com/VPagani/zed-goose"
+rev = "fd05820ff2c2058a5dabc3c774d0bc8b782ad441"
 path = "tree-sitter-goose"
 
 [language_servers.goose]
