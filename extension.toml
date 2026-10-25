@@ -2,7 +2,7 @@ id = "goose"
 name = "Goose"
 version = "0.1.0"
 schema_version = 1
-authors = ["vr.paga <vr.paga@gmail.com>"]
+authors = ["VPagani <vpagani.dev@gmail.com>"]
 description = "Goose language support: tree-sitter highlighting, outline, run tasks, and the compiler's language server (goose lsp)."
 repository = "https://github.com/VPagani/zed-goose"
 
