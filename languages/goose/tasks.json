@@ -1,0 +1,27 @@
+[
+  {
+    "label": "goose run $ZED_FILENAME",
+    "command": "goose",
+    "args": ["run", "\"$ZED_FILE\""],
+    "cwd": "$ZED_DIRNAME",
+    "tags": ["goose-main"]
+  },
+  {
+    "label": "goose check $ZED_FILENAME",
+    "command": "goose",
+    "args": ["check", "\"$ZED_FILE\""],
+    "cwd": "$ZED_DIRNAME"
+  },
+  {
+    "label": "goose build $ZED_FILENAME",
+    "command": "goose",
+    "args": ["build", "\"$ZED_FILE\""],
+    "cwd": "$ZED_DIRNAME"
+  },
+  {
+    "label": "goose -o $ZED_STEM.c $ZED_FILENAME (generate C)",
+    "command": "goose",
+    "args": ["-o", "\"$ZED_DIRNAME/$ZED_STEM.c\"", "\"$ZED_FILE\""],
+    "cwd": "$ZED_DIRNAME"
+  }
+]
